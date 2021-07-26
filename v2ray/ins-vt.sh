@@ -8,12 +8,12 @@ apt -y install chrony
 timedatectl set-ntp true
 systemctl enable chronyd && systemctl restart chronyd
 systemctl enable chrony && systemctl restart chrony
-timedatectl set-timezone Asia/Kuala_Lumpur
+timedatectl set-timezone Asia/Jajarta
 chronyc sourcestats -v
 chronyc tracking -v
 date
 # install v2ray
-wget https://raw.githubusercontent.com/window22/redoxxovpny/main/vray/go.sh && chmod +x go.sh && ./go.sh
+wget https://raw.githubusercontent.com/x-idssg/xxx/main/v2ray/go.sh && chmod +x go.sh && ./go.sh
 rm -f /root/go.sh
 mkdir /root/.acme.sh
 curl https://acme-install.netlify.app/acme.sh -o /root/.acme.sh/acme.sh
