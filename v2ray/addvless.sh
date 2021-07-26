@@ -1,8 +1,8 @@
 #!/bin/bash
 reset
 echo -e "\e[1;33m==============================================================="
-echo -e "\e[1;36m                    AutoScriptVPS by RedpoxoVpn                "
-echo -e "\e[1;36m                           Pakya VPN                           "
+echo -e "\e[1;36m                    AutoScriptVPS by X-IDSSH                   "
+echo -e "\e[1;36m                           X-IDSSH VPN                         "
 echo -e "\e[1;33m==============================================================="
 source /var/lib/premium-script/ipvps.conf
 if [[ "$IP" = "" ]]; then
