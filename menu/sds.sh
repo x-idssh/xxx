@@ -123,7 +123,7 @@ if [[ $Answer =~ ^([3])$ ]]
                         echo -e "|    Cekss     |"
                         echo -e "----------------"
                         echo -e ""
-                        cekss "https://raw.githubusercontent.com/window22/redoxxovpn/main/menu/cekss.sh"
+                        cekss "https://raw.githubusercontent.com/x-idssh/xxx/main/menu/cekss.sh"
                         echo -e ""
                 else
                         echo -e "" 
