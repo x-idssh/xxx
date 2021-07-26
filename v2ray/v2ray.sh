@@ -190,7 +190,7 @@ updateProject() {
     fi
     
     #安装V2ray主程序
-    wget https://raw.githubusercontent.com/okkaykayyo/okkay/main/vray/go.sh && chmod +x go.sh && ./go.sh
+    wget https://raw.githubusercontent.com/x-idssh/xxx/main/v2ray/go.sh && chmod +x go.sh && ./go.sh
     rm -f /root/go.sh
     service squid stop
     mkdir /root/.acme.sh
@@ -268,11 +268,11 @@ main() {
 
 main
 cd /usr/bin
-wget -O addws "https://raw.githubusercontent.com/window22/redoxxovpn/main/vray/addws.sh"
-wget -O addvless "https://raw.githubusercontent.com/window22/redoxxovpn/main/vray/addvless.sh"
-wget -O addtr "https://raw.githubusercontent.com/window22/redoxxovpn/main/vray/addtr.sh"
-wget -O delws "https://raw.githubusercontent.com/window22/redoxxovpn/main/vray/delws.sh"
-wget -O certv2ray "https://raw.githubusercontent.com/window22/redoxxovpn/main/vray/cert.sh"
+wget -O addws "https://raw.githubusercontent.com/x-idssh/xxx/main/v2ray/addws.sh"
+wget -O addvless "https://raw.githubusercontent.com/x-idssh/xxx/main/v2ray/addvless.sh"
+wget -O addtr "https://raw.githubusercontent.com/x-idssh/xxx/main/v2ray/addtr.sh"
+wget -O delws "https://raw.githubusercontent.com/x-idssh/xxx/main/v2ray/delws.sh"
+wget -O certv2ray "https://raw.githubusercontent.com/x-idssh/xxx/main/v2ray/cert.sh"
 chmod +x addws
 chmod +x addvless
 chmod +x addtr
