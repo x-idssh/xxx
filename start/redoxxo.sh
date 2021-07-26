@@ -1,5 +1,5 @@
 clear
-echo "-----------=[ Redoxxo Malaysian Vps Script ]=-----------" | lolcat
+echo "-----------=[ X-IDSSH ]=-----------" | lolcat
 echo "-----------=[ Pakya Malay Telco Vpn Trick  ]=-----------" | lolcat
 echo -e "" 
 echo -e "[1] Usernew"
