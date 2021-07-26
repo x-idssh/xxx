@@ -74,8 +74,8 @@ unzip master.zip
 cd lolcat-master/bin
 gem install lolcat
 echo -e ""
-echo "-----------=[ Redoxxo Malaysian Vps Script ]=-----------" | lolcat
-echo "-----------=[ Pakya Malay Telco Vpn Trick  ]=-----------" | lolcat
+echo "-----------=[ X-IDSSH ]=-----------" | lolcat
+
 echo -e ""
 
 # Confirm to Install Script
