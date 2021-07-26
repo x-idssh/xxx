@@ -89,4 +89,4 @@ clear
 	echo -e "==========================="
 	echo -e "Link OBFS HTTP : $linkss2"
 	echo -e "==========================="
-	echo -e "Script by Redoxxovpn"
+	echo -e "Script by X-IDSSH"
