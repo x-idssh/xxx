@@ -23,7 +23,12 @@ NC='\e[0m'
 apt update -y
 apt upgrade -y
 update-grub
-apt install -y bzip2 gzip coreutils curl
+apt install -y bzip2 gzip coreutils curl unzip netcat tcpd libsctp-dev cmake make gcc zlib1g-dev libwrap0-dev certbot perl libperl-dev libgd3 libgd-dev libgeoip1 libgeoip-dev geoip-bin libxml2 libxml2-dev libxslt1.1 libxslt1-dev build-essential git tree libpcre3-dev socket dh-autoreconf libssh-4 libssh-dev libconfig9 lolcat mercurial screen
+# Create and Configure rc.local
+cat > /etc/rc.local <<-END
+#!/bin/sh -e
+exit 0
+END
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1
 
 # Script Access 
