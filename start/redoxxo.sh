@@ -1,6 +1,6 @@
 clear
 echo "-----------=[ X-IDSSH ]=-----------" | lolcat
-echo "-----------=[ Pakya Malay Telco Vpn Trick  ]=-----------" | lolcat
+echo "-----------=[ X-IDSSH VPN TRICK  ]=-----------" | lolcat
 echo -e "" 
 echo -e "[1] Usernew"
 echo -e "[2] Delete"
