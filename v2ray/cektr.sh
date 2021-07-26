@@ -29,5 +29,5 @@ echo "$jum2";
 echo "-------------------------------"
 fi
 done
-echo "By RedoxxoVpn"
+echo "By X-IDSSH"
 
