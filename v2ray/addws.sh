@@ -1,4 +1,4 @@
-vp#!/bin/bash
+#!/bin/bash
 reset
 echo -e "\e[1;33m==============================================================="
 echo -e "\e[1;36m                    AutoScriptVPS by X-IDSSH                   "
