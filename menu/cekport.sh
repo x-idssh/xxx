@@ -55,7 +55,7 @@ read -p "Mana yang ingin anda pilih : " Jawaban
                         echo -e "|   Stunnel   |"
                         echo -e "---------------"
                         echo -e ""
-                        netstat -tunlp | grep stunnel4
+                        netstat -tunlp | grep stunnel
                         echo -e ""
                 else
                         echo
