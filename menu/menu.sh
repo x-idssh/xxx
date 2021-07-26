@@ -203,7 +203,7 @@ exit
 elif test $x -eq 50; then
 echo " "
 echo "GOODBYE!!!"
-echo "SCRIPT BY RedoxxoVpn"
+echo "SCRIPT BY X-IDSSH"
 echo " "
 exit
 else
